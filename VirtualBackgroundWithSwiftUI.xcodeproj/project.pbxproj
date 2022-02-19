@@ -14,10 +14,12 @@
 		D44A6F0A27BDBEAF0014CE12 /* CapsuleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A6F0927BDBEAF0014CE12 /* CapsuleItem.swift */; };
 		D44A6F0C27BDC0530014CE12 /* NameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A6F0B27BDC0530014CE12 /* NameItem.swift */; };
 		D44A6F0E27BDC4960014CE12 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A6F0D27BDC4960014CE12 /* ProfileImage.swift */; };
+		D4B153E227C12350003422B7 /* VirtualBackgroundWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B153E127C12350003422B7 /* VirtualBackgroundWithSwiftUITests.swift */; };
+		D4B153ED27C12D77003422B7 /* iOSSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = D4B153EC27C12D77003422B7 /* iOSSnapshotTestCase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D44A6F1A27BE84CF0014CE12 /* PBXContainerItemProxy */ = {
+		D4B153E327C12350003422B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D44A6EF027BDBE230014CE12 /* Project object */;
 			proxyType = 1;
@@ -35,7 +37,8 @@
 		D44A6F0927BDBEAF0014CE12 /* CapsuleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleItem.swift; sourceTree = "<group>"; };
 		D44A6F0B27BDC0530014CE12 /* NameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameItem.swift; sourceTree = "<group>"; };
 		D44A6F0D27BDC4960014CE12 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
-		D44A6F1627BE84CF0014CE12 /* VirtualBackgroundWithSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualBackgroundWithSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B153DF27C12350003422B7 /* VirtualBackgroundWithSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualBackgroundWithSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B153E127C12350003422B7 /* VirtualBackgroundWithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualBackgroundWithSwiftUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +49,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D44A6F1327BE84CF0014CE12 /* Frameworks */ = {
+		D4B153DC27C12350003422B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B153ED27C12D77003422B7 /* iOSSnapshotTestCase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				D44A6EFA27BDBE230014CE12 /* VirtualBackgroundWithSwiftUI */,
+				D4B153E027C12350003422B7 /* VirtualBackgroundWithSwiftUITests */,
 				D44A6EF927BDBE230014CE12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D44A6EF827BDBE230014CE12 /* VirtualBackgroundWithSwiftUI.app */,
-				D44A6F1627BE84CF0014CE12 /* VirtualBackgroundWithSwiftUITests.xctest */,
+				D4B153DF27C12350003422B7 /* VirtualBackgroundWithSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +100,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D4B153E027C12350003422B7 /* VirtualBackgroundWithSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B153E127C12350003422B7 /* VirtualBackgroundWithSwiftUITests.swift */,
+			);
+			path = VirtualBackgroundWithSwiftUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,22 +130,25 @@
 			productReference = D44A6EF827BDBE230014CE12 /* VirtualBackgroundWithSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D44A6F1527BE84CF0014CE12 /* VirtualBackgroundWithSwiftUITests */ = {
+		D4B153DE27C12350003422B7 /* VirtualBackgroundWithSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D44A6F1C27BE84CF0014CE12 /* Build configuration list for PBXNativeTarget "VirtualBackgroundWithSwiftUITests" */;
+			buildConfigurationList = D4B153E527C12350003422B7 /* Build configuration list for PBXNativeTarget "VirtualBackgroundWithSwiftUITests" */;
 			buildPhases = (
-				D44A6F1227BE84CF0014CE12 /* Sources */,
-				D44A6F1327BE84CF0014CE12 /* Frameworks */,
-				D44A6F1427BE84CF0014CE12 /* Resources */,
+				D4B153DB27C12350003422B7 /* Sources */,
+				D4B153DC27C12350003422B7 /* Frameworks */,
+				D4B153DD27C12350003422B7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D44A6F1B27BE84CF0014CE12 /* PBXTargetDependency */,
+				D4B153E427C12350003422B7 /* PBXTargetDependency */,
 			);
 			name = VirtualBackgroundWithSwiftUITests;
+			packageProductDependencies = (
+				D4B153EC27C12D77003422B7 /* iOSSnapshotTestCase */,
+			);
 			productName = VirtualBackgroundWithSwiftUITests;
-			productReference = D44A6F1627BE84CF0014CE12 /* VirtualBackgroundWithSwiftUITests.xctest */;
+			productReference = D4B153DF27C12350003422B7 /* VirtualBackgroundWithSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +164,7 @@
 					D44A6EF727BDBE230014CE12 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					D44A6F1527BE84CF0014CE12 = {
+					D4B153DE27C12350003422B7 = {
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = D44A6EF727BDBE230014CE12;
 					};
@@ -164,13 +180,14 @@
 			);
 			mainGroup = D44A6EEF27BDBE230014CE12;
 			packageReferences = (
+				D4B153EB27C12D77003422B7 /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */,
 			);
 			productRefGroup = D44A6EF927BDBE230014CE12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D44A6EF727BDBE230014CE12 /* VirtualBackgroundWithSwiftUI */,
-				D44A6F1527BE84CF0014CE12 /* VirtualBackgroundWithSwiftUITests */,
+				D4B153DE27C12350003422B7 /* VirtualBackgroundWithSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,7 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D44A6F1427BE84CF0014CE12 /* Resources */ = {
+		D4B153DD27C12350003422B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,20 +224,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D44A6F1227BE84CF0014CE12 /* Sources */ = {
+		D4B153DB27C12350003422B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B153E227C12350003422B7 /* VirtualBackgroundWithSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D44A6F1B27BE84CF0014CE12 /* PBXTargetDependency */ = {
+		D4B153E427C12350003422B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D44A6EF727BDBE230014CE12 /* VirtualBackgroundWithSwiftUI */;
-			targetProxy = D44A6F1A27BE84CF0014CE12 /* PBXContainerItemProxy */;
+			targetProxy = D4B153E327C12350003422B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -362,6 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kamimi01.VirtualBackgroundWithSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -399,7 +418,7 @@
 			};
 			name = Release;
 		};
-		D44A6F1D27BE84CF0014CE12 /* Debug */ = {
+		D4B153E627C12350003422B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,7 +441,7 @@
 			};
 			name = Debug;
 		};
-		D44A6F1E27BE84CF0014CE12 /* Release */ = {
+		D4B153E727C12350003422B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,16 +485,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D44A6F1C27BE84CF0014CE12 /* Build configuration list for PBXNativeTarget "VirtualBackgroundWithSwiftUITests" */ = {
+		D4B153E527C12350003422B7 /* Build configuration list for PBXNativeTarget "VirtualBackgroundWithSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D44A6F1D27BE84CF0014CE12 /* Debug */,
-				D44A6F1E27BE84CF0014CE12 /* Release */,
+				D4B153E627C12350003422B7 /* Debug */,
+				D4B153E727C12350003422B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4B153EB27C12D77003422B7 /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/ios-snapshot-test-case.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4B153EC27C12D77003422B7 /* iOSSnapshotTestCase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4B153EB27C12D77003422B7 /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
+			productName = iOSSnapshotTestCase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D44A6EF027BDBE230014CE12 /* Project object */;
 }

@@ -42,8 +42,23 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    enum Context: String, Previewable {
+        case one
+
+        var preview: some View {
+            switch self {
+            case .one: return ContentView()
+            }
+        }
+    }
+
     static var previews: some View {
         ContentView()
             .previewLayout(.fixed(width: 1600, height: 1000))
     }
+}
+
+protocol Previewable: CaseIterable, Hashable, RawRepresentable {
+    associatedtype Preview: View
+    var preview: Preview { get }
 }

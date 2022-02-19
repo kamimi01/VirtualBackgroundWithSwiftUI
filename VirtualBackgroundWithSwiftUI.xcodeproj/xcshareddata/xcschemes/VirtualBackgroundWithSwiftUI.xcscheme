@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D44A6F1527BE84CF0014CE12"
+               BlueprintIdentifier = "D4B153DE27C12350003422B7"
                BuildableName = "VirtualBackgroundWithSwiftUITests.xctest"
                BlueprintName = "VirtualBackgroundWithSwiftUITests"
                ReferencedContainer = "container:VirtualBackgroundWithSwiftUI.xcodeproj">
@@ -60,6 +60,18 @@
             ReferencedContainer = "container:VirtualBackgroundWithSwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "FB_REFERENCE_IMAGE_DIR"
+            value = "$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "IMAGE_DIFF_DIR"
+            value = "$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/FailureDiffs"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
